@@ -1,0 +1,191 @@
+/* Chat.css */
+
+.chat-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Set the chat app height to fill the entire viewport */
+    overflow-y: auto;
+  }
+  .input{
+    width: 70vw;
+  }
+  
+  .chat-container {
+    flex: 1;
+    overflow-y: auto; 
+    overflow-x: auto;
+    max-height: 600px;
+    padding: 10px;
+    /* border: 3px solid whitesmoke; */
+    /* background: #fff; */
+    border-radius: 20px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    /* justify-content: flex-end; */
+  }
+  
+  .chat-bubble {
+    max-width: 80%; /* Adjust the maximum width of chat bubbles to prevent excessive width */
+    margin: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    word-wrap: break-word; /* Wrap long words to prevent overflow */
+    /* align-self: flex-start; Align user messages to the right */
+    margin: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    word-wrap: break-word;
+    max-width: 80%;
+  }
+  
+  .user {
+    /* background-color: #007bff; */
+    background: #000;
+    color: #fff;
+    align-self: flex-end;
+  }
+  
+  .bot {
+    background-color: #e5e5ea;
+    color: #333;
+    align-self: flex-start;
+  }
+  
+  .boxx {
+    top:100%;
+  }
+
+  .custom-field {
+    position: relative;
+    font-size: 14px;
+    border-top: 20px solid transparent;
+    margin-bottom: 25px;
+    display: inline-block;
+    --field-padding: 12px;
+  }
+  
+  .custom-field input {
+    background-color: darkblue;
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: var(--field-padding);
+    border-radius: 10px;
+    width: 70vw;
+    outline: none;
+    font-size: 14px;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  .custom-field .placeholder {
+    position: absolute;
+    left: var(--field-padding);
+    width: calc(100% - (var(--field-padding) * 2));
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    top: 22px;
+    line-height: 100%;
+    transform: translateY(-50%);
+    color: #aaa;
+    transition: 
+      top 0.3s ease,
+      color 0.3s ease,
+      font-size 0.3s ease;
+  }
+  
+  .custom-field input.dirty + .placeholder,
+  .custom-field input:focus + .placeholder,
+  .custom-field input:not(:placeholder-shown) + .placeholder {
+    top: -10px;
+    font-size: 10px;
+    color: #222;
+  }
+  .cont{
+    height: 90vh;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid white;
+    border-radius: 30px;
+    align-items: center;
+    background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-top: 20px;
+  }
+
+  .button{
+    border-radius:5px;
+    text-align:center;
+    height:35px;
+    line-height:45px;
+    width:35px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(255,255,255,.4);
+    background:#282e3f;
+    border:1px solid #333947;
+    margin:20px;
+  }
+  
+  .active{
+    color:#fff;
+    background-color: #5a008d;
+    border:1px solid #5a008d;
+  }
+  
+  .pushed {
+    position: relative;
+    box-shadow: 0 0 0 0 #5a008d;
+    cursor: pointer;
+    background:#5a008d;
+    animation: pulse 2s infinite cubic-bezier(0.66, 0, 0, 1);
+    
+    &:hover {
+      animation: none;
+    }
+  }
+  @keyframes pulse {to {box-shadow: 0 0 0 20px rgba(90, 0, 141, 0);}}
+.mic{
+  width: 20px;
+}
+.container2{
+  display: flex;
+  align-items: center;
+}
+.mic2 > img{
+  padding-top: 8px;
+}
+.inp-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stop{
+  height: 30px;
+}
+.gif{
+  width: 100px;
+}
+.ai-message{
+  align-self: flex-start;
+}
+.send-button{
+  background: #5a008d;
+  color: white;
+  height: 50px;
+  width: 70px;
+  border-radius: 5px;
+}

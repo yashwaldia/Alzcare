@@ -1,0 +1,41 @@
+
+body {
+    background: linear-gradient(315deg, #FFFFCC 0%, #F5DEB3 100%);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Set the chat app height to fill the entire viewport */
+    overflow-y: auto;
+}
+.rbox > h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.rbox label {
+  font-family: 'Lexend';
+  display: table-cell;
+  text-align: center;padding-left: 28px;
+  padding-bottom: 5px;padding-top: 5px;
+}
+.rbox input {
+  display: table-cell;width: 90%;margin-left: 28px;
+  height: 20px;
+}
+.rbox{
+  height: 95vh;width: 40%;left: 50%;
+  justify-content: flex-end;
+  border: 2px solid transparent;margin-top: 20px;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 2px 8px 32px rgba( 31, 38, 135, 0.37 );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.rbox button{
+  position: absolute;margin-top: 30px;font-size: large;margin-left: px;left: 47.4%;
+}
