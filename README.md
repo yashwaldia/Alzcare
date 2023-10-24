@@ -12,3 +12,8 @@ The voice assistant supports communication in both English and Hindi. Users can 
 ![web1](https://github.com/yashwaldia/AlzCare/assets/115491299/cd89ac6c-82b6-4b58-a73f-77201197dc2a)
 ![web2](https://github.com/yashwaldia/AlzCare/assets/115491299/3b022253-a26e-4c44-a564-33ed0a271751)
 ![web3](https://github.com/yashwaldia/AlzCare/assets/115491299/6f2bbf30-b62a-4f96-8d8f-4fb44a3b46a9)
+
+## Installation
+1. Clone the repository.
+   ```bash
+   git clone https://github.com/yashwaldia/AlzCare
