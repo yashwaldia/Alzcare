@@ -1,5 +1,7 @@
 # AlzCare
 AlzCare, powered by state-of-the-art Character AI, is a revolutionary virtual companion tailored for Alzheimer's patients. Through intuitive conversations and personalized adaptability, it provides not just assistance but genuine comfort and support, making a significant impact in the journey of those affected by Alzheimer's.
+# Multilingual Support
+The voice assistant supports communication in both English and Hindi. Users can express their emotions and thoughts in either language, ensuring a comfortable and inclusive experience for a diverse range of users.
 # Website
 ![web01](https://github.com/yashwaldia/AlzCare/assets/115491299/fd39bdd6-bf22-47b8-a996-b21452d772a0)
 ![web02](https://github.com/yashwaldia/AlzCare/assets/115491299/f240bfc5-e84b-4258-8df2-ae86b5fba360)
