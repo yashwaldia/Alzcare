@@ -68,7 +68,7 @@ const ChatApp = () => {
         { isLoading: true, isUser: false }
       ]);
       console.log("in try");
-      const response = await fetch('http://localhost:3001/', {
+      const response = await fetch('http://localhost:3002/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
