@@ -27,7 +27,7 @@ const RegistrationForm = () => {
     // Handle form submission here[], e.g., send data to the server
     console.log('Form data submitted:', formData);
     const firstText = `Hello, my name is ${formData.name}, and I'm completing this form to ensure that my essential details are readily available when needed. In case of an emergency, you can reach me at ${formData.emergencyNumber}. I am ${formData.age} years old. My family members are ${formData.familymem}. One important memory I'd like to share is ${formData.impmemory}. Regarding my health, my medical history includes ${formData.medhistory}, and I take ${formData.dailymed} as part of my daily routine. In terms of personal preferences, I enjoy ${formData.perpre}. I hope that by providing this information, I can receive the best possible care and support as needed.`;
-    const response = await fetch('http://localhost:3001/', {
+    const response = await fetch('http://localhost:3002/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
